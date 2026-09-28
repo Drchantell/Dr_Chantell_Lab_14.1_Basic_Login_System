@@ -1,0 +1,19 @@
+START HERE
+
+1. Open this project in VS Code.
+2. Open the terminal.
+3. Run: npm install
+4. Create a .env file.
+5. Copy the three variables from .env.example into .env.
+6. Add your real MongoDB Atlas connection string.
+7. Add your own JWT secret.
+8. Run: npm start
+9. Test registration and login in Postman, Insomnia, or Thunder Client.
+
+Register:
+POST http://localhost:3000/api/users/register
+
+Login:
+POST http://localhost:3000/api/users/login
+
+Do not upload your .env file to GitHub.
