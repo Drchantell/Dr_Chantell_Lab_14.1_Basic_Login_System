@@ -1,0 +1,19 @@
+{
+  "name": "dr-chantell-lab-14-1-basic-login-system",
+  "version": "1.0.0",
+  "description": "Per Scholas Basic Login System using Express, MongoDB, bcrypt, and JWT.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "author": "Dr. Chantell McDowell",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1"
+  }
+}
